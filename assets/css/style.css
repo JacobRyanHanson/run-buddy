@@ -14,7 +14,7 @@ body
 header
 {
     padding: 20px 35px;
-    background: #39a6b2;
+    background-color: #39a6b2;
 }
 
 header h1
@@ -52,7 +52,7 @@ header nav ul li a
 
 footer
 {
-    background: #fce138;
+    background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
@@ -75,4 +75,30 @@ footer div
 footer a
 {
     color: #024e76;
+}
+
+section
+{
+    padding: 60px;
+}
+
+.title
+{
+    background-image: url("../images/title-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+.title-form
+{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
